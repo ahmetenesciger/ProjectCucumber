@@ -1,0 +1,23 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+customerId:690229202515
+
+Body:
+{
+  "channel": "string",
+  "picture": "string",
+  "preferences": {
+    "allowComment": true,
+    "autoCouponShare": true,
+    "displayStats": true,
+    "displayUserName": true,
+    "showHiddenCoupons": true,
+    "useTeamPicture": true
+  },
+  "token": "string",
+  "userId": 201907041502189499
+}
+
+StatusCode:200
+
+Response:

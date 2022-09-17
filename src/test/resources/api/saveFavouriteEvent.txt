@@ -1,0 +1,12 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+customerId:201907041502189499
+
+Body:
+{
+  "customerId": 0,
+  "eventId": 0
+}
+StatusCode:200
+
+Response:

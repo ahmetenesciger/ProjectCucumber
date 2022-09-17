@@ -1,0 +1,20 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+
+Body:
+{
+  "competitionIds": [
+    "string"
+  ],
+  "end": 0,
+  "eventDetails": true,
+  "lineUps": true,
+  "officials": true,
+  "onlyLive": true,
+  "sbsEventId": 0,
+  "start": 0,
+  "stats": true
+}
+StatusCode:200
+
+Response:

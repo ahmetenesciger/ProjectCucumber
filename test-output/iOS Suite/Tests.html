@@ -1,0 +1,98 @@
+<html>
+<head>
+<title>TestNG:  Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 26 17:27:20 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>136 seconds (136687 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TestRunnerIOS.scenario()'><b>scenario</b><br>Test class: test.TestRunnerIOS<br>Test method: Run Cucumber Features.<br>Parameters: "iOS Game Sanity", "Optional[iOS Sanity Check]"</td>
+<td><div><pre>java.lang.AssertionError: &gt;&gt;&gt; writeText($**/XCUIElementTypeTextField[`value == &apos;Takım, Maç Kodu, Lig Ara&apos;`]); fonksiyonu çalışmadı !!!
+	at page.PageBaseIos.throwFail(PageBaseIos.java:770)
+	at page.PageBaseIos.writeText(PageBaseIos.java:352)
+	at ios.pages.pageCanliIddaa.TakimAdiAra(pageCanliIddaa.java:240)
+	at ios.stepDefinitions.iosSteps.canli_iddaa_sayfasinda_ilk_maca_tiklanir_(iosSteps.java:1512)
+	at ✽.ios - Canlı Iddaa sayfası Arama çubuğuna kopyalanan takım ismi yazılır.(file:///Users/metin.sen/Documents/GitLab/bilyoner_test_cucumber/src/test/java/ios/features/iosSanityOne.feature:103)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1746444096", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1746444096'><pre>java.lang.AssertionError: &gt;&gt;&gt; writeText($**/XCUIElementTypeTextField[`value == &apos;Takım, Maç Kodu, Lig Ara&apos;`]); fonksiyonu çalışmadı !!!
+	at org.testng.Assert.fail(Assert.java:99)
+	at page.PageBaseIos.throwFail(PageBaseIos.java:770)
+	at page.PageBaseIos.writeText(PageBaseIos.java:352)
+	at ios.pages.pageCanliIddaa.TakimAdiAra(pageCanliIddaa.java:240)
+	at ios.stepDefinitions.iosSteps.canli_iddaa_sayfasinda_ilk_maca_tiklanir_(iosSteps.java:1512)
+	at ✽.ios - Canlı Iddaa sayfası Arama çubuğuna kopyalanan takım ismi yazılır.(file:///Users/metin.sen/Documents/GitLab/bilyoner_test_cucumber/src/test/java/ios/features/iosSanityOne.feature:103)
+</pre></div></td>
+<td>126</td>
+<td>test.TestRunnerIOS@54c5a2ff</td></tr>
+</table><p>
+</body>
+</html>

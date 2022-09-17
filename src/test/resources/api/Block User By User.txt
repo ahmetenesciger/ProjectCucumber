@@ -1,0 +1,16 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+channel:0
+token:38ebb7e81fdb6dc73052f591b95fc9de
+
+Body:
+{
+  "block": true,
+  "channel": "string",
+  "token": "string",
+  "userId": "string"
+}
+
+StatusCode:200
+
+Response:

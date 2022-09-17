@@ -1,0 +1,6 @@
+==================================>>>>>>> emulator_1 <<<<<<==============================
+device.udid				=257bcba93da287a764622f160d69df45021ad1ee
+platform.version		=14
+device.name				=iPhone8PlusAL
+automation.name			=XCUITest
+active					=false

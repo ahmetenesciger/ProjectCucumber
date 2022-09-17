@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="iOS Suite" duration-ms="136687" started-at="2022-01-26T17:27:20 EET" finished-at="2022-01-26T17:29:36 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunnerIOS.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunnerIOS@54c5a2ff]" name="scenario" class="test.TestRunnerIOS"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Tests" duration-ms="136687" started-at="2022-01-26T17:27:20 EET" finished-at="2022-01-26T17:29:36 EET">
+      <class name="test.TestRunnerIOS">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.TestRunnerIOS@54c5a2ff]" name="setUpClass" is-config="true" duration-ms="668" started-at="2022-01-26T17:27:20 EET" finished-at="2022-01-26T17:27:20 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.TestRunnerIOS@54c5a2ff]" name="setup" is-config="true" duration-ms="7741" started-at="2022-01-26T17:27:20 EET" finished-at="2022-01-26T17:27:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunnerIOS@54c5a2ff]" name="scenario" duration-ms="126833" started-at="2022-01-26T17:27:28 EET" description="Run Cucumber Features." data-provider="scenarios" finished-at="2022-01-26T17:29:35 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["iOS Game Sanity"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[iOS Sanity Check]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[>>> writeText($**/XCUIElementTypeTextField[`value == 'Takım, Maç Kodu, Lig Ara'`]); fonksiyonu çalışmadı !!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: >>> writeText($**/XCUIElementTypeTextField[`value == 'Takım, Maç Kodu, Lig Ara'`]); fonksiyonu çalışmadı !!!
+at org.testng.Assert.fail(Assert.java:99)
+at page.PageBaseIos.throwFail(PageBaseIos.java:770)
+at page.PageBaseIos.writeText(PageBaseIos.java:352)
+at ios.pages.pageCanliIddaa.TakimAdiAra(pageCanliIddaa.java:240)
+at ios.stepDefinitions.iosSteps.canli_iddaa_sayfasinda_ilk_maca_tiklanir_(iosSteps.java:1512)
+at ✽.ios - Canlı Iddaa sayfası Arama çubuğuna kopyalanan takım ismi yazılır.(file:///Users/metin.sen/Documents/GitLab/bilyoner_test_cucumber/src/test/java/ios/features/iosSanityOne.feature:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.TestRunnerIOS@54c5a2ff]" name="teardown" is-config="true" duration-ms="1099" started-at="2022-01-26T17:29:35 EET" finished-at="2022-01-26T17:29:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=scenario status=FAILURE method=TestRunnerIOS.scenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:test.TestRunnerIOS@54c5a2ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.TestRunnerIOS@54c5a2ff]" name="tearDownClass" is-config="true" duration-ms="299" started-at="2022-01-26T17:29:36 EET" finished-at="2022-01-26T17:29:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.TestRunnerIOS -->
+    </test> <!-- Tests -->
+  </suite> <!-- iOS Suite -->
+</testng-results>

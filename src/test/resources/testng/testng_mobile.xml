@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mobile Web Suite" data-provider-thread-count="1">
+
+	<!-- Test Started... -->
+  <test name="Tests">
+		<!-- <parameter name="udid" value="emulator-5554"/> -->
+		<!-- <parameter name="platformVersion" value="11"/> -->
+		<classes>
+			<class name="test.TestRunnerMobile" />
+		</classes>
+	</test>
+
+	<!-- Test Started...run same scenario on different device -->
+	<!-- <test name="emulator-5555"> -->
+	<!-- <parameter name="udid" value="emulator-5554"/> -->
+	<!-- <parameter name="platformVersion" value="11"/> -->
+	<!-- <classes> -->
+	<!-- <class name="test.TestRunnerMobile"/> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+</suite>

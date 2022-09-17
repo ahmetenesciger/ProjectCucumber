@@ -1,0 +1,14 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+customerId:201907041502189499
+
+Body:
+{
+  "acceptHigherOdds": true,
+  "acceptLiveEvents": true,
+  "acceptLowerOdds": true,
+  "acceptPrematchEvents": true
+}
+StatusCode:200
+
+Response:

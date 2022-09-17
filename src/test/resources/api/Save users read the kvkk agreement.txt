@@ -1,0 +1,14 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+channel:0
+token:1307ab02974625498bdc704265d9c82a
+
+Body:
+{
+  "channel": "string",
+  "token": "string",
+  "version": "string"
+}
+StatusCode:200
+
+Response:

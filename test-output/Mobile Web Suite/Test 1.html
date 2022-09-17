@@ -1,0 +1,186 @@
+<html>
+<head>
+<title>TestNG:  Test 1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test 1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 10 22:07:05 EET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>2367 seconds (2367415 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td><div><pre>java.lang.AssertionError: Puan Durumu textli element bulunamadı.
+	at page.PageBaseWeb.throwFail(PageBaseWeb.java:775)
+	at mobile.pages.pageMacKarti.Odd_Alan_Tikla(pageMacKarti.java:237)
+	at mobile.stepDefinitions.mobileSteps.mac_karti_odd_filtresinden_alanina_tiklanir(mobileSteps.java:1013)
+	at ✽.mobile - Maç Kartı Odd filtresinden &quot;Puan Durumu&quot; alanına tıklanır.(file:///Users/metin.sen/Documents/GitLab/bilyoner_test_cucumber/src/test/java/mobile/features/mobileSanityOne.feature:2339)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace657828580", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace657828580'><pre>java.lang.AssertionError: Puan Durumu textli element bulunamadı.
+	at org.testng.Assert.fail(Assert.java:99)
+	at page.PageBaseWeb.throwFail(PageBaseWeb.java:775)
+	at mobile.pages.pageMacKarti.Odd_Alan_Tikla(pageMacKarti.java:237)
+	at mobile.stepDefinitions.mobileSteps.mac_karti_odd_filtresinden_alanina_tiklanir(mobileSteps.java:1013)
+	at ✽.mobile - Maç Kartı Odd filtresinden &quot;Puan Durumu&quot; alanına tıklanır.(file:///Users/metin.sen/Documents/GitLab/bilyoner_test_cucumber/src/test/java/mobile/features/mobileSanityOne.feature:2339)
+</pre></div></td>
+<td>31</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td><div><pre>java.lang.AssertionError: Puan Durumu textli element bulunamadı.
+	at page.PageBaseWeb.throwFail(PageBaseWeb.java:775)
+	at mobile.pages.pageMacKarti.Odd_Alan_Tikla(pageMacKarti.java:237)
+	at mobile.stepDefinitions.mobileSteps.mac_karti_odd_filtresinden_alanina_tiklanir(mobileSteps.java:1013)
+	at ✽.mobile - Maç Kartı Odd filtresinden &quot;Puan Durumu&quot; alanına tıklanır.(file:///Users/metin.sen/Documents/GitLab/bilyoner_test_cucumber/src/test/java/mobile/features/mobileSanityOne.feature:2516)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1308410686", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1308410686'><pre>java.lang.AssertionError: Puan Durumu textli element bulunamadı.
+	at org.testng.Assert.fail(Assert.java:99)
+	at page.PageBaseWeb.throwFail(PageBaseWeb.java:775)
+	at mobile.pages.pageMacKarti.Odd_Alan_Tikla(pageMacKarti.java:237)
+	at mobile.stepDefinitions.mobileSteps.mac_karti_odd_filtresinden_alanina_tiklanir(mobileSteps.java:1013)
+	at ✽.mobile - Maç Kartı Odd filtresinden &quot;Puan Durumu&quot; alanına tıklanır.(file:///Users/metin.sen/Documents/GitLab/bilyoner_test_cucumber/src/test/java/mobile/features/mobileSanityOne.feature:2516)
+</pre></div></td>
+<td>31</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>117</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>117</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>120</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>117</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>120</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>116</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>116</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>124</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>118</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>118</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>119</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>116</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+<tr>
+<td title='test.TestRunnerMobile.scenario()'><b>scenario</b><br>Test class: test.TestRunnerMobile<br>Test method: Run Cucumber Features.<br>Parameters: "Mobile Web Content Sanity", "Optional[Mobile Sanity Check]"</td>
+<td></td>
+<td>805</td>
+<td>test.TestRunnerMobile@27c86f2d</td></tr>
+</table><p>
+</body>
+</html>

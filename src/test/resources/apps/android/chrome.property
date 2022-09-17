@@ -1,0 +1,3 @@
+==================================>>>>>>> Chrome <<<<<<==============================
+app.package				=com.android.chrome
+app.activity			=com.google.android.apps.chrome.Main

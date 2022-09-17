@@ -1,0 +1,14 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+
+Body:
+{
+  "eventDetails": true,
+  "feeds": true,
+  "lineUps": true,
+  "officials": true,
+  "stats": true
+}
+StatusCode:200
+
+Response:

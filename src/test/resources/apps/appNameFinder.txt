@@ -1,0 +1,7 @@
+Android:
+For Mac/Linux:
+./adb shell dumpsys window | grep -E 'mCurrentFocus' 
+For Windows:
+adb shell dumpsys window | find "mCurrentFocus"
+
+iOS:

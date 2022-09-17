@@ -1,0 +1,31 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+customerId:201907041502189499
+
+Body:
+{
+  "authorComments": true,
+  "bulletinType": 0,
+  "favouriteEvents": true,
+  "filterRequestType": [
+    {
+      "filterIds": [
+        "string"
+      ],
+      "filterType": "MBS"
+    }
+  ],
+  "hasLiveStream": true,
+  "hourFilter": {
+    "endTime": "string",
+    "startTime": "string"
+  },
+  "league": true,
+  "liveEvent": true,
+  "tabName": "string",
+  "tabType": 0
+}
+
+StatusCode:200
+
+Response:

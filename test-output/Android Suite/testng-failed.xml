@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Android Suite]" data-provider-thread-count="1">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test.TestRunnerAndroid">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="setup"/>
+          <include name="setUpClass"/>
+          <include name="scenario" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.TestRunnerAndroid -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Android Suite] -->

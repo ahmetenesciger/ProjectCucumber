@@ -1,0 +1,5 @@
+==================================>>>>>>> Emulator_1 <<<<<<==============================
+device.udid				=emulator-5554
+device.name				=Emulator_1
+platform.version		=9.0
+active					=false

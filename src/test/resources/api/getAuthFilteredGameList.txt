@@ -1,0 +1,21 @@
+====>>>>>>> Request <<<<<<====
+Headers:
+customerId:201907041502189499
+
+Body:
+{
+   "bulletinType":2,
+   "tabType":2,
+   "filterRequestType":[
+      {
+         "filterType":"MBS",
+         "filterIds":[
+            "2:1"
+         ]
+      }
+   ]
+}
+
+StatusCode:200
+
+Response:
